@@ -1,17 +1,10 @@
-# checklist-app
+# Recipe APP Demo for Blitzjs
 
-## Getting Started
+## Demo
 
-1. Add this code to db/schema.prisma:
+![Demo](./demo.gif)
 
-```
-model Project {
-  id      Int      @default(autoincrement()) @id
-  name    String
-}
-```
-
-2. DB migrate
+1. DB migrate
 
 ```
 blitz db migrate
